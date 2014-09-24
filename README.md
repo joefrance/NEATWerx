@@ -40,6 +40,8 @@ Prerequisites:
 
 This example connects to SQL Server 2008R2 (at least version 10.50.2500) and the AdventureWorks database (thus the ending "Werx" on this sample):
 
+** If you have a SQL Server 2008R2 installation below the version above you can install SP1: http://www.microsoft.com/en-us/download/details.aspx?id=26727 (How's MongoDB looking now? :) )
+
 You can find the full SQL Server backup file here:
 
  1. http://msftdbprodsamples.codeplex.com/releases/view/59211
