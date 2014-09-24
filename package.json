@@ -1,0 +1,18 @@
+{
+    "name": "NEATWerx",
+    "version": "0.0.1",
+    "description": "A demonstration of the NEAT stack (Node, Express, Angular, Tedious/T-SQL)",
+    "author": "Joe France <joefrance@totalwebsystems.com>",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joefrance/NEATWerx.git"
+    },
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "express": ">= 4.9.4"
+    },
+    "engine": "node 0.10.32"
+}
