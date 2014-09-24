@@ -17,6 +17,10 @@ Benjamin Coe has an excellent article on MongoDB in CODE Oct 2013 - http://www.c
 
 The “T” in the term “NEAT stack” is borrowed from “T-SQL” and the “Tedious” driver for SQL 
 Server under NodeJS. Tedious represents a spoken form of the acronym T.D.S. (Microsoft’s 
-Tabular Data Stream Protocol http://msdn.microsoft.com/en-us/library/dd304523.aspx). There are a number of “tedious” node packages but I have settled on “mssql”.
+Tabular Data Stream Protocol http://msdn.microsoft.com/en-us/library/dd304523.aspx). There are a number of “tedious” node packages but I have settled on “mssql” as of this writing.
+
+Update: I'm getting a Segmenation fault 11 on my MacBook Pro in a REST service using the mssql driver. I cannot point to either Tedious or mssql at this point.
+
+Maybe later I'll choose another driver(s) if the problem persists.
 
 See https://github.com/joefrance/Tech-Search/blob/master/MEAN%2C%20NEAT%20stack%20on%20the%20Mac%20-%20Lightning%20Talk.pdf to read about my journey into the MEAN stack which lead me to the NEAT stack on a project under which I could not readily supplant SQL Server.
