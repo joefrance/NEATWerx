@@ -3,6 +3,17 @@ NEATWerx
 
 A demonstration of the NEAT stack (Node, Express, Angular, Tedious/T-SQL)
 
+To run this sample:
+
+  1. Clone this repo
+  2. Open a terminal or command line:
+    a. Navigate to the NEATWerx folder
+    b. Type "npm install" and press <ENTER>
+    c. Type "npm start" and press <ENTER>"
+  3. In your browser, Chrome, Safari, etc:
+    a. browse to "http://localhost:3000/"
+
+
 I coined the term "NEAT stack" as a variation of the "MEAN stack".
 
 In this configuration you use T-SQL / SQL Server (via the Tedious driver) instead of MongoDB.
