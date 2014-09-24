@@ -9,11 +9,11 @@ In this configuration you use T-SQL / SQL Server (via the Tedious driver) instea
 
 You might substitute SQL Server for the database for any of the following reasons:
 
-  • MongoDB is not well-suited to store your data
-    • (Benjamin Coe has an excellent article on MongoDB in CODE Oct 2013)
-    • http://www.codemag.com/Article/1309051
-  • You cannot convert from SQL Server to MongoDB in the scope of your project
-  • You need a transactional database and SQL Server fits the bill for you
+  1. MongoDB is not well-suited to store your data
+  2. You cannot convert from SQL Server to MongoDB in the scope of your project
+  3. You need a transactional database and SQL Server fits the bill for you
+  
+Benjamin Coe has an excellent article on MongoDB in CODE Oct 2013 - http://www.codemag.com/Article/1309051
 
 The “T” in the term “NEAT stack” is borrowed from “T-SQL” and the “Tedious” driver for SQL 
 Server under NodeJS. Tedious represents a spoken form of the acronym T.D.S. (Microsoft’s 
