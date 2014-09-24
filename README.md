@@ -38,7 +38,7 @@ See https://github.com/joefrance/Tech-Search/blob/master/MEAN%2C%20NEAT%20stack%
 
 Prerequisites:
 
-This example connects to SQL Server 2008 and the AdventureWorks database (thus the ending "Werx" on this sample):
+This example connects to SQL Server 2008R2 (at least version 10.50.2500) and the AdventureWorks database (thus the ending "Werx" on this sample):
 
 You can find the full SQL Server backup file here:
 
