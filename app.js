@@ -4,10 +4,11 @@
 var express = require('express');
 
 var routes = require('./routes/index');
-
+var restRoutes = require('./routes/rest');
 var app = express();
 
 app.use('/', routes);
+app.use('/rest', restRoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

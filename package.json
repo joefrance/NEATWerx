@@ -12,7 +12,8 @@
       "start": "node ./bin/www"
     },
     "dependencies": {
-        "express": ">= 4.9.4"
+        "express": ">= 4.9.4",
+        "mssql": ">= 1.2.0"
     },
     "engine": "node 0.10.32"
 }
